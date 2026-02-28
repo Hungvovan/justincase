@@ -1,0 +1,43 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&display=swap');
+
+@theme {
+  --color-primary-blue: #0066FF;
+  --color-sapphire-blue: #0047AB;
+  --color-navy: #003DBE;
+  --color-royal-blue: #5D8CFF;
+  --color-sky-blue: #F0F7FF;
+  --color-charcoal: #333333;
+  --color-electric-blue: #00C2FF;
+
+  --font-serif: "Playfair Display", serif;
+  --font-sans: Inter, system-ui, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-white text-charcoal font-sans antialiased overflow-x-hidden;
+  }
+}
+
+@layer utilities {
+  .glassmorphism {
+    @apply bg-white/80 backdrop-blur-md;
+    box-shadow: 0 8px 32px 0 rgba(0, 102, 255, 0.05);
+    border: 1px solid rgba(0, 102, 255, 0.1);
+  }
+
+  .glassmorphism-dark {
+    @apply bg-navy/90 backdrop-blur-md;
+    box-shadow: 0 8px 32px 0 rgba(0, 61, 190, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .btn-gradient-blue {
+    @apply bg-gradient-to-r from-navy to-royal-blue text-white shadow-md hover:shadow-[0_0_20px_#ffffff80] hover:scale-[1.03] transition-all duration-300;
+  }
+
+  .card-blue-shadow {
+    @apply hover:shadow-[0_15px_40px_#0066ff26] transition-shadow duration-500;
+  }
+}
