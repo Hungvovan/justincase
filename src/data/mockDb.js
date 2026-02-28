@@ -194,13 +194,13 @@ export const ProductPhotos = [
     {
         id: 4, product_id: 2, attribute_id: 3,
         // Softcore matte black silicone case
-        image_url: '/images/products/matte-mist-front.png',
+        image_url: 'images/products/matte-mist-front.png',
         alt_text: 'Justin Case Softcore Matte Mist', is_primary: true, angle: 'front'
     },
     {
         id: 21, product_id: 2, attribute_id: 3,
         // Lifestyle shot of matte black case
-        image_url: '/images/products/matte-mist-lifestyle.png',
+        image_url: 'images/products/matte-mist-lifestyle.png',
         alt_text: 'Justin Case Softcore Matte Mist — Lifestyle', is_primary: false, angle: 'side'
     },
     {
@@ -268,13 +268,13 @@ export const ProductPhotos = [
     {
         id: 15, product_id: 10, attribute_id: 10,
         // Fabric Burnt Sienna — phone case
-        image_url: '/images/products/burnt-sienna-front.png',
+        image_url: 'images/products/burnt-sienna-front.png',
         alt_text: 'Justin Case Fabric Burnt Sienna', is_primary: true, angle: 'front'
     },
     {
         id: 22, product_id: 10, attribute_id: 10,
         // Lifestyle shot of burnt sienna fabric case
-        image_url: '/images/products/burnt-sienna-lifestyle.png',
+        image_url: 'images/products/burnt-sienna-lifestyle.png',
         alt_text: 'Justin Case Fabric Burnt Sienna — Lifestyle', is_primary: false, angle: 'side'
     },
     {
