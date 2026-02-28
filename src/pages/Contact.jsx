@@ -135,7 +135,7 @@ const Contact = () => {
                         className="space-y-12"
                     >
                         <div>
-                            <h3 className="text-2xl font-black text-navy mb-8 tracking-tighter">Global Headquarters</h3>
+                            <h3 className="text-2xl font-black text-navy mb-8 tracking-tighter">Shop Location</h3>
                             <div className="space-y-8">
                                 <div className="flex gap-6 items-start group">
                                     <div className="w-12 h-12 rounded-2xl bg-sky-blue/10 flex items-center justify-center text-sapphire-blue shrink-0 group-hover:bg-sapphire-blue group-hover:text-white transition-all duration-500">
@@ -152,7 +152,7 @@ const Contact = () => {
                                     </div>
                                     <div>
                                         <p className="text-[10px] font-black uppercase tracking-widest text-navy/30 mb-1">Address</p>
-                                        <p className="text-xl font-bold text-navy leading-snug">123 JustinCase St, Tech City,<br />Vietnam</p>
+                                        <p className="text-xl font-bold text-navy leading-snug">Tran Phu, Thanh Khe District,<br />Da Nang, Vietnam</p>
                                     </div>
                                 </div>
                                 <div className="flex gap-6 items-start group">
@@ -161,7 +161,7 @@ const Contact = () => {
                                     </div>
                                     <div>
                                         <p className="text-[10px] font-black uppercase tracking-widest text-navy/30 mb-1">Support Email</p>
-                                        <p className="text-xl font-bold text-navy leading-snug">support@justincase.com</p>
+                                        <p className="text-xl font-bold text-navy leading-snug">ngobao@justincase.com</p>
                                     </div>
                                 </div>
                             </div>
